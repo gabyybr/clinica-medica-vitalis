@@ -14,3 +14,7 @@
 
 ## 📱 Tela 5 — Relatório de Exames
 ![Relatório](./imagens/relatorio.png)
+
+
+## 📱 Tela 6 — Avaliação
+![Relatório](./imagens/estrelas.png)
