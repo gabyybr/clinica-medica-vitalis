@@ -52,7 +52,7 @@ Este documento compila a visão completa do projeto, incluindo:
 O Canvas do Projeto apresenta uma visão estratégica da Clínica Médica Vitalis, englobando parceiros, infraestrutura, proposta de valor, recursos e custos operacionais.
 
 ### 📌 Canvas Visual  
-*(Certifique-se de que o arquivo esteja em: `docs/imagens/canvas.png`)*
+
 
 ![Canvas do Projeto](./imagens/canvas.png)
 
