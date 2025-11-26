@@ -1,18 +1,70 @@
-# 🩺 Introdução – Minimundo do Sistema Clínica Médica Vitalis
+# 1. Introdução
 
-A **Clínica Médica Vitalis** busca implementar um **sistema de gestão integrada** que otimize suas atividades administrativas e de atendimento, garantindo **agilidade, eficiência e segurança** em todos os processos internos. O sistema tem como propósito principal centralizar informações e automatizar tarefas, reduzindo erros manuais e melhorando a experiência tanto dos profissionais quanto dos pacientes.
+O presente documento apresenta a visão geral do sistema **Clínica Médica Vitalis**, detalhando sua finalidade, objetivos, público-alvo, escopo e elementos estratégicos essenciais para o desenvolvimento do software. Ele também reúne os principais artefatos de documentação, garantindo clareza e alinhamento entre todos os envolvidos no projeto.
 
-O software contará com **três perfis principais de usuários**: **Administradores**, **Médicos** e **Pacientes**.  
-Os **administradores** serão responsáveis pelo gerenciamento global do sistema, realizando o **cadastro de médicos, pacientes e especialidades**, além de gerarem **relatórios administrativos e financeiros** detalhados. Essa camada administrativa permitirá o controle completo de todos os setores da clínica, desde o agendamento até o faturamento.
+## 1.1 Objetivo
 
-Os **médicos** cadastrados terão acesso a suas **agendas de consultas**, podendo visualizar horários disponíveis, confirmar atendimentos e registrar informações nos **prontuários eletrônicos dos pacientes**. Nesses prontuários, será possível registrar **evoluções médicas, prescrições e anexar resultados de exames laboratoriais ou de imagem**, garantindo um histórico clínico completo e seguro.
+O objetivo deste documento é descrever, de forma clara e organizada, as diretrizes do projeto, incluindo funcionalidades centrais, requisitos, stakeholders, modelos UML e protótipos. O intuito é servir como referência para o desenvolvimento e evolução do sistema, assegurando que todas as partes interessadas compreendam o propósito e a abrangência do software.
 
-Os **pacientes** poderão utilizar o sistema para **agendar consultas e exames online**, conforme a disponibilidade de horários e profissionais. Cada paciente possuirá um **cadastro único**, contendo dados pessoais e históricos de atendimento. Além disso, o sistema permitirá **reagendamento e cancelamento de consultas**, enviando **notificações automáticas** por e-mail ou aplicativo. Por meio de um **portal exclusivo**, o paciente poderá **acompanhar seu histórico de saúde**, **visualizar resultados de exames**, **avaliar os serviços prestados** e até **interagir com atendentes via chat online**.
+## 1.2 Escopo
 
-Na parte **financeira**, o sistema será integrado a um **módulo de controle de pagamentos**, permitindo o gerenciamento de **consultas particulares e convênios**. Serão emitidos **recibos e relatórios de faturamento**, e em casos de inadimplência, o sistema enviará **alertas automáticos** ao paciente, restringindo novos agendamentos até a regularização.
+O sistema **Clínica Médica Vitalis** será uma plataforma voltada ao gerenciamento de atendimentos médicos, oferecendo funcionalidades para pacientes, médicos e administradores. O sistema permitirá agendamentos, acesso ao prontuário, visualização de exames, emissão de documentos e administração geral da clínica.  
+O público-alvo inclui pacientes, médicos, equipe administrativa e demais colaboradores envolvidos nos processos clínicos.
 
-Os **administradores** terão acesso a **relatórios gerenciais avançados**, como estatísticas de atendimentos por especialidade, desempenho financeiro, indicadores de satisfação dos pacientes, uso das agendas médicas e métricas de produtividade — como **taxa de ocupação, tempo médio de espera e índice de retorno de pacientes**.
+## 1.3 Definições, Acrônimos e Abreviações
 
-Para assegurar a **proteção dos dados médicos e pessoais**, o sistema adotará **autenticação em múltiplos níveis** e **armazenamento criptografado**, em conformidade com a **LGPD**.
+- **UML** – Unified Modeling Language (Linguagem de Modelagem Unificada)  
+- **Paciente** – Usuário que acessa o sistema para agendar consultas e visualizar informações  
+- **Administrador** – Responsável pelo gerenciamento geral da clínica  
+- **Prontuário** – Registro completo do histórico clínico do paciente  
 
-Em suma, o **Sistema Clínica Médica Vitalis** proporcionará uma gestão mais eficiente, **autonomia para médicos e pacientes**, e uma **experiência moderna, interativa e humanizada**, alinhada às necessidades tecnológicas do setor da saúde.
+## 1.4 Público-Alvo
+
+Este documento destina-se a:
+
+- Desenvolvedores  
+- Gerentes de projeto  
+- Professores e avaliadores  
+- Usuários finais envolvidos no processo  
+- Especialistas de domínio  
+- Stakeholders institucionais  
+
+---
+
+# 2. Descrição do Projeto
+
+## 2.1 Visão Geral do Projeto
+
+O sistema **Clínica Médica Vitalis** é projetado para melhorar o fluxo de atendimento médico, oferecendo uma plataforma moderna, intuitiva e integrada. Ele proporciona agendamento simplificado, acesso ao prontuário, gerenciamento de exames e comunicação entre pacientes e profissionais da saúde.
+
+Este documento compila a visão completa do projeto, incluindo:  
+✔ requisitos funcionais e não funcionais  
+✔ stakeholders  
+✔ diagrama de caso de uso  
+✔ diagrama de classes  
+✔ protótipos de telas  
+✔ canvas estratégico  
+
+---
+
+## 2.1.1 Canvas do Projeto
+
+O Canvas do Projeto apresenta uma visão estratégica da Clínica Médica Vitalis, englobando parceiros, infraestrutura, proposta de valor, recursos e custos operacionais.
+
+### 📌 Canvas Visual  
+*(Certifique-se de que o arquivo esteja em: `docs/imagens/canvas.png`)*
+
+![Canvas do Projeto](./imagens/canvas.png)
+
+---
+
+## 2.2 Stakeholders
+
+A seguir estão identificadas as partes interessadas do sistema e seus respectivos papéis:
+
+- **Paciente** — Usuário principal do sistema; agenda consultas, visualiza prontuário e resultados de exames.  
+- **Médico** — Responsável por registrar prontuário, emitir prescrições e acompanhar pacientes.  
+- **Administrador da Clínica** — Garante o funcionamento da plataforma, gerencia usuários, médicos, especialidades e relatórios.  
+- **Equipe Técnica de TI** — Responsável pela manutenção, hospedagem e suporte técnico do sistema.  
+- **Laboratórios Parceiros** — Enviam resultados de exames e integram dados clínicos ao sistema.  
+- **Equipe de Suporte ao Usuário** — Atende pacientes e médicos via chat e suporte 24/7.  

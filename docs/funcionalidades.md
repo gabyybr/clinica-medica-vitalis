@@ -9,3 +9,5 @@
 - **Envio automático de notificações** e lembretes por e-mail.
 - **Autenticação segura** e controle de acessos conforme perfil (paciente, médico ou administrador).
 - **Backup e criptografia** dos dados sensíveis conforme a **LGPD**.
+
+
