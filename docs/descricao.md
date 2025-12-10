@@ -19,7 +19,7 @@ Al√©m disso, o sistema permite acompanhamento de atendimentos, controle de conv√
 
 O Canvas abaixo resume a proposta, necessidades e valores entregues pelo sistema:
 
-![Canvas do Projeto](../imagens/canvas.png)
+![Canvas do Projeto](./imagens/canvas.png)
 
 ---
 
