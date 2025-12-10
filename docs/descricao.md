@@ -1,7 +1,34 @@
-# ⚙️ Descrição do Projeto
+# 2. Descrição do Projeto
 
-O **Sistema Clínica Médica Vitalis** tem como objetivo centralizar e automatizar os processos de uma clínica médica de médio porte. A proposta é oferecer uma plataforma moderna, segura e acessível, que permita o controle de agendamentos, atendimentos, prontuários e finanças, melhorando a produtividade da equipe e a satisfação dos pacientes.
+## 2.1 Visão Geral do Projeto
 
-O sistema será desenvolvido em ambiente web, utilizando tecnologias como **HTML5, CSS3, JavaScript, PHP e MySQL**, garantindo compatibilidade com diferentes navegadores e dispositivos. O foco é proporcionar **uma interface intuitiva**, permitindo o fácil uso por profissionais de saúde e pacientes, mesmo com pouca experiência tecnológica.
+O **Sistema Clínica Médica Vitalis** foi projetado para integrar e automatizar as atividades essenciais da clínica, proporcionando organização, redução de retrabalho e centralização das informações.  
+A solução visa otimizar:
 
-A aplicação será estruturada em módulos independentes (cadastros, consultas, relatórios e financeiro), interligados por um banco de dados relacional. Essa arquitetura facilitará futuras atualizações e integração com sistemas externos, como convênios ou laboratórios parceiros.
+- agendamentos e reagendamentos;
+- prontuário eletrônico do paciente;
+- comunicação entre setores;
+- relatórios administrativos e financeiros;
+- segurança de dados conforme a LGPD.
+
+Além disso, o sistema permite acompanhamento de atendimentos, controle de convênios, notificações automáticas e gerenciamento de profissionais.
+
+---
+
+## 2.1.1 Canvas do Projeto
+
+O Canvas abaixo resume a proposta, necessidades e valores entregues pelo sistema:
+
+![Canvas do Projeto](../imagens/canvas.png)
+
+---
+
+## 2.2 Stakeholders
+
+- **Administrador da Clínica** – Define regras de funcionamento, acessa relatórios e controla usuários.
+- **Médicos** – Realizam atendimentos, evoluções, exames, prescrições e visualizações do histórico.
+- **Pacientes** – Utilizam o sistema para agendamento, histórico e acompanhamento clínico.
+- **Equipe de TI / Desenvolvimento** – Responsável pela implementação e manutenção técnica.
+- **Equipe Financeira** – Acompanha pagamentos, convênios, faturamento e relatórios financeiros.
+- **Atendentes / Secretaria** – Auxiliam no agendamento, cadastro e suporte ao paciente.
+

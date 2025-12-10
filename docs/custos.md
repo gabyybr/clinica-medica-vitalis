@@ -1,4 +1,4 @@
-# 💰 Custos e Orçamento
+# Custos e Orçamento
 
 | Item                                        | Descrição                     | Custo Estimado |
 | ------------------------------------------- | ----------------------------- | -------------- |

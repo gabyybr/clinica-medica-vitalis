@@ -1,18 +1,22 @@
-# 💻 Protótipos de Telas
+# Protótipos de Telas
 
-Os protótipos foram criados no [https://www.figma.com/](https://www.figma.com/).
+Os protótipos foram desenvolvidos no Figma e representam a navegação principal do sistema para pacientes, médicos e administradores.
 
-Telas obrigatórias:
+##  Tela de Login
+![Tela de Login](../imagens/TELA_login.png)
 
-1. Tela de Login
-2. Tela Principal (Dashboard do Administrador)
-3. Tela de Agendamento de Consulta
-4. Tela de Cadastro de Paciente
-5. Tela de Prontuário do Paciente
+##  Painel do Paciente
+![Painel Paciente](../imagens/painelPaciente.png)
 
-Telas opcionais:
+##  Agendamento de Exames
+![Agendamento de Exames](../imagens/agendamentoexames.png)
 
-- Tela de Chat Online
-- Tela de Relatórios
+##  Prontuário do Paciente
+![Prontuário](../imagens/prontuarioPaciente.png)
 
-Cada interface segue um **design limpo e intuitivo**, priorizando a **usabilidade** e **acessibilidade**.
+##  Relatório de Exames
+![Relatório](../imagens/relatorioPaciente.png)
+
+## Relatório de Avaliacao 
+![Relatório](../imagens/avaliacaotendimento.png)
+

@@ -1,4 +1,4 @@
-# 📅 Cronograma e Entrega
+# Cronograma e Entrega
 
 | Etapa | Atividade                             | Período       | Status          |
 | ----- | ------------------------------------- | ------------- | --------------- |

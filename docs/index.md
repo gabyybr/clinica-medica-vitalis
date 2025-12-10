@@ -8,38 +8,58 @@ hero:
   actions:
     - theme: brand
       text: 📘 Acessar Documentação
-      link: /documentos/introducao
+      link: /introducao
     - theme: alt
       text: 🌐 Repositório no GitHub
-      link: https://github.com/seuusuario/clinica-vitalis-docs
+      link: https://github.com/gabbybr/clinica-medica-vitalis
 features:
   - title: Gestão Integrada
-    details: Controle completo de pacientes, médicos, consultas e finanças.
+    details: Controle completo de pacientes, médicos, consultas e processos internos.
   - title: Prontuário Eletrônico
-    details: Histórico médico centralizado e seguro conforme a LGPD.
+    details: Armazenamento seguro e centralizado de informações médicas, seguindo a LGPD.
   - title: Agendamento Online
-    details: Consultas e exames com confirmação automática e notificações.
+    details: Marcação de consultas com confirmação automática e notificações inteligentes.
 ---
 
-# 👩‍⚕️ Bem-vindo à Documentação do Sistema Clínica Médica Vitalis
+# 👩‍⚕️ Bem-vindo à Documentação da Clínica Médica Vitalis
 
-O **Sistema Clínica Médica Vitalis** é um projeto desenvolvido com o objetivo de integrar e automatizar os processos administrativos, médicos e financeiros de uma clínica moderna.  
-Esta documentação apresenta todos os detalhes do sistema, incluindo minimundo, diagramas, funcionalidades, protótipos e considerações finais.
+Esta plataforma reúne todas as informações essenciais sobre o **Sistema de Gestão Clínica Vitalis**, incluindo:
 
----
+- descrição detalhada do projeto;
+- requisitos funcionais e não funcionais;
+- diagramas de caso de uso e classes;
+- protótipos de telas;
+- riscos, custos, cronograma e considerações finais.
 
-## 🧭 Navegue pela Documentação
-
-📖 **[Introdução – Minimundo](./introducao.md)**  
-⚙️ **[Descrição do Projeto](./descricao.md)**  
-🧩 **[Funcionalidades Principais](./funcionalidades.md)**  
-📊 **[Diagramas de Caso de Uso e Classes](./diagramas.md)**  
-💻 **[Protótipos de Telas](./prototipos.md)**  
-📅 **[Cronograma e Entrega](./cronograma.md)**  
-⚠️ **[Riscos e Mitigação](./riscos.md)**  
-💰 **[Custos e Orçamento](./custos.md)**  
-🧠 **[Considerações Finais](./conclusao.md)**
+O objetivo da documentação é apresentar de forma clara e organizada como o sistema foi projetado, quais funcionalidades oferece e como cada parte contribui para a gestão eficiente da clínica.
 
 ---
 
-> 💡 \*Projeto desenvolvido no curso Técnico em Informática – IFSC Chapecó, com uso das tecnologias **VitePress**, **Vercel**, **Figma** e **Diagrams.net\***.
+## 📚 Como Navegar
+
+Para acessar qualquer seção, utilize o **menu lateral** ou clique no botão *Acessar Documentação* acima.
+
+As principais categorias incluem:
+
+- **Introdução e Minimundo** – visão geral do funcionamento da clínica.  
+- **Descrição do Projeto** – objetivos, escopo e Canvas do projeto.  
+- **Funcionalidades** – requisitos funcionais e não funcionais.  
+- **Diagramas** – representações estruturais e comportamentais do sistema.  
+- **Protótipos** – telas principais do sistema.  
+- **Cronograma, Custos e Riscos** – planejamento do desenvolvimento.  
+- **Conclusão** – fechamento e análise final.
+
+---
+
+## 🎯 Objetivo da Documentação
+
+Oferecer uma visão completa, organizada e profissional sobre o sistema desenvolvido, permitindo que professores, colegas e avaliadores entendam:
+
+- o propósito da solução,
+- seu funcionamento,
+- suas entregas técnicas,
+- e seu impacto na gestão clínica.
+
+---
+
+> ✨ Esta documentação faz parte do trabalho acadêmico desenvolvido no curso Técnico em Informática – IFSC Chapecó.

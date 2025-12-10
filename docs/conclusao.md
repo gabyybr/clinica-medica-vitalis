@@ -1,4 +1,4 @@
-# 🧠 Considerações Finais
+# Considerações Finais
 
 O desenvolvimento do **Sistema Clínica Médica Vitalis** proporcionou uma visão ampla sobre o processo de criação e documentação de sistemas. A elaboração dos diagramas, protótipos e descrições técnicas permitiu compreender a importância da **organização de requisitos** e da **modelagem estrutural** para garantir um produto eficiente e seguro.
 
