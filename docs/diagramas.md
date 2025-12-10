@@ -2,7 +2,7 @@
 
 ##  Diagrama de Caso de Uso
 
-![Diagrama de Caso de Uso](../imagens/diagramacasosdeusoclinica.png)
+![Diagrama de Caso de Uso](./imagens/diagramacasosdeusoclinica.png)
 
 O diagrama acima representa as interações entre os três atores do sistema:
 
@@ -70,7 +70,7 @@ Cada ator acessa funcionalidades específicas de acordo com suas permissões no 
 
 ##  Diagrama de Classes
 
-![Diagrama de Classes](../imagens/diagramadeclassesClinica.png)
+![Diagrama de Classes](./imagens/diagramadeclassesClinica.png)
 
 O diagrama apresenta as seguintes entidades:
 
